@@ -9,7 +9,6 @@ creation_date = str(datetime.date.today())
 if __name__ == "__main__":
     dictionary = Dictionary(f"ECDICT [{creation_date}]")
 
-
     with open("ecdict.csv", 'r', newline='') as csvfile:
         reader = csv.reader(csvfile)
 
@@ -31,7 +30,6 @@ if __name__ == "__main__":
             if frq == 0:
                 continue
 
-            # Replace literal \n with actual newlines before splitting
             translation = translation.replace("\\n", "\n")
 
             t_list = []

@@ -1,0 +1,1 @@
+A Yomitan dictionary using data from https://github.com/skywind3000/ECDICT
